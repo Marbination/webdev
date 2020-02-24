@@ -1,0 +1,67 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+header{
+	background-color: black;
+	height:50pt;
+	
+}
+#candidate {
+	width: 40%;
+	padding: 4px 10px;
+	margin-left: 120pt;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+input[type=text]:focus{
+	border-color: dodgerblue;
+	box-shadow: 0 0 8px 0 dodgerblue;
+}
+table{
+	width: 65%;
+	text-align: left;
+	margin-left: 180pt;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+	border-radius: 3px
+}
+
+td{
+	border: 1px solid #ccc;
+
+}
+.btn{
+	background-color: white;
+}
+#butn{
+	background-color: blue;
+	border-radius:4px;
+	color:white;
+	margin-left: 20px;
+	border:none;
+	height:30px;
+	width:45px;
+}
+p{
+	margin:0;
+	margin-left: 200px;
+	margin-top: auto;
+	text-decoration: none;
+	color: #cccccc;
+	vertical-align: middle;
+	line-height: 50px;
+	font-size: 20px;
+}
+div{
+	margin-top: 60px;
+	text-align: center;
+}
+h1{
+	text-align: left;
+	margin-left: 450px;
+	font-size: 30px;
+}
